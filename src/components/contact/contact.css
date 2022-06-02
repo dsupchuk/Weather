@@ -1,0 +1,24 @@
+.contact {
+  height: 85vh;
+  background: no-repeat center 100% url("https://www.iphones.ru/wp-content/uploads/2017/07/laptop-1478822_960_720-1240x630.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.contact .contact-item {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  padding: 30px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.contact .contact-item p, .contact .contact-item h5 {
+  margin: 0;
+}
+/*# sourceMappingURL=contact.css.map */

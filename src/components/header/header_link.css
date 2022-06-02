@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+.header {
+  overflow: hidden;
+  height: 15vh;
+  background-color: #f1f1f1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .logo {
+  font-family: 'Comforter', cursive;
+  text-decoration: none;
+  text-shadow: 2px 1px 1px grey;
+  padding: 0 2%;
+}
+
+.header .logo h2 {
+  color: lightblue;
+  font-weight: bold;
+  font-size: 60px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.header .logo h2:hover {
+  color: black;
+}
+
+.header .header-right {
+  padding-right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 8px;
+}
+
+.header .header-right a {
+  color: #4C7298;
+  text-shadow: 2px 1px 1px #CCCCCC;
+}
+
+.header .header-right a:nth-child(1n) {
+  margin-right: 45px;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.header .header-right a:last-child {
+  margin-right: 0;
+}
+
+.header .header-right a:hover {
+  -webkit-transform: rotateZ(4deg);
+          transform: rotateZ(4deg);
+}
+/*# sourceMappingURL=header_link.css.map */

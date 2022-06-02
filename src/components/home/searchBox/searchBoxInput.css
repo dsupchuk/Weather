@@ -1,0 +1,25 @@
+.search-inputs {
+  margin-left: 35%;
+}
+
+.search-inputs input {
+  background-color: #A1C1E2;
+  border: none;
+  text-decoration: none;
+  color: white;
+  padding: 20px 20px;
+  margin: 20px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.search-inputs button {
+  background-color: #A1C1E2;
+  border: none;
+  text-decoration: none;
+  color: white;
+  padding: 20px 20px;
+  margin: 20px 10px;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=searchBoxInput.css.map */

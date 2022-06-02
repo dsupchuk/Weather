@@ -1,0 +1,16 @@
+.bg-gray {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  padding: 10px;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.temper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr;
+      grid-template-columns: 2fr 2fr;
+}
+/*# sourceMappingURL=slider-item.css.map */

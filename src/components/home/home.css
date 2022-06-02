@@ -1,0 +1,19 @@
+.home-blackboard .carousel {
+  height: 85vh;
+}
+
+.home-blackboard .carousel .carousel-inner img {
+  height: 85vh;
+  margin: 0 auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.home-blackboard .carousel .carousel-indicators li {
+  border-color: #000;
+}
+
+.home-blackboard .carousel .carousel-indicators .active {
+  background-color: #000;
+}
+/*# sourceMappingURL=home.css.map */

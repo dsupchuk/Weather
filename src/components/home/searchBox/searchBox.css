@@ -1,0 +1,45 @@
+.search-inputs {
+  margin-left: 35%;
+}
+
+.search-inputs input {
+  background-color: orange;
+  border: none;
+  text-decoration: none;
+  color: white;
+  padding: 20px 20px;
+  margin: 20px 20px;
+  cursor: pointer;
+}
+
+.search-inputs button {
+  background-color: orange;
+  border: none;
+  text-decoration: none;
+  color: white;
+  padding: 20px 20px;
+  margin: 20px 20px;
+  cursor: pointer;
+}
+
+.box-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f1f1f1;
+  margin: 20px 15px;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.box-list p {
+  font-weight: bold;
+  margin: 0 5px;
+  text-align: center;
+}
+/*# sourceMappingURL=searchBox.css.map */
